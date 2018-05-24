@@ -5,11 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RequestBuilderPattern
+namespace POSTtests
 {
    public class DataSource
     {
         private static string url = "https://jsonplaceholder.typicode.com";
+
+        private static string microsortLoginUrl = "https://login.microsoftonline.com";
+
+        private static string azureUrl = "https://pxlweusbxteam5datalake.azuredatalakestore.net";
+
 
         private static string postsResource = "/posts";
 
@@ -24,6 +29,10 @@ namespace RequestBuilderPattern
 
 
         public static string Url { get => url; set => url = value; }
+
+        public static string MicrosoftLoginUrl { get => microsortLoginUrl; set => microsortLoginUrl = value; }
+
+        public static string AzureUrl { get => azureUrl; set => azureUrl = value; } 
 
         public static string PostsResource { get => postsResource; set => postsResource = value; }
 

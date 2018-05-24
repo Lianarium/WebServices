@@ -21,3 +21,16 @@ C:\Users\Alina_Apet\Documents\WebServiceTest\RequestBuilder\obj\Debug\RequestBui
 C:\Users\Alina_Apet\Documents\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilder.dll
 C:\Users\Alina_Apet\Documents\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilder.pdb
 C:\Users\Alina_Apet\Documents\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilderPattern.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\RequestBuilder.dll
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\RequestBuilder.pdb
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\NServiceBus.Core.dll
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\RestSharp.dll
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\NServiceBus.Core.pdb
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\bin\Debug\NServiceBus.Core.xml
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilderPattern.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilderPattern.csproj.CoreCompileInputs.cache
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilderPattern.csproj.CopyComplete
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilder.dll
+C:\Users\Alina_Apet\source\repos\WebServices\WebServices\WebServiceTest\RequestBuilder\obj\Debug\RequestBuilder.pdb

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Web.UI;
 using Newtonsoft.Json;
 using NUnit.Framework;
+using POSTtests;
 using RequestBuilderPattern;
 using RestSharp;
 

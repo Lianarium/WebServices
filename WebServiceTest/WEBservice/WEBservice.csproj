@@ -54,12 +54,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adress.cs" />
+    <Compile Include="Models\Adress.cs" />
     <Compile Include="APITests.cs" />
-    <Compile Include="Company.cs" />
-    <Compile Include="Geo.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Geo.cs" />
+    <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Models\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,11 +69,16 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GETTests\POSTtests.csproj">
+      <Project>{FDCB29BC-A84D-4880-82B1-BF5115C9F5F1}</Project>
+      <Name>POSTtests</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RequestBuilder\RequestBuilderPattern.csproj">
       <Project>{F6F5AF31-0930-446A-91E4-9FB27847EA14}</Project>
       <Name>RequestBuilderPattern</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

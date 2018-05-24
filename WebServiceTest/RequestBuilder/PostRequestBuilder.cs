@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿
+using RestSharp;
 
 
 namespace RequestBuilderPattern
@@ -17,18 +18,18 @@ namespace RequestBuilderPattern
 
         public override void SetHeaders()
         {
-           // this.Request.RestRequest.AddHeader("Connection", "Keep-Alive");
+            this.Request.RestRequest.AddHeader("Connection", "Keep-Alive");
            
         }
 
         public override void SetRestClient()
         {
-           this.Request.RestClient = new RestClient(DataSource.Url);
+           //this.Request.RestClient = new RestClient(DataSource.Url);
         }
 
         public override void SetRestRequest()
         {
-            this.Request.RestRequest = new RestSharp.RestRequest(DataSource.PostsResource, DataSource.Method);
+           //this.Request.RestRequest = new RestSharp.RestRequest(DataSource.PostsResource, DataSource.Method);
         }
 
         public override void SetRestResponse()
