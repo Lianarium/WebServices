@@ -19,18 +19,20 @@ namespace DataLake
         private HttpStatusCode OkCode = HttpStatusCode.OK;
         private RestRequest tokenRequest;
         private IRestResponse tokenResponse;
-
+        private string[] parameterNames = new string[] { "grant_type", "resource", "client_id", "client_secret" };
+        private string[] parameterValues = new string[] { "client_credentials", "https://management.core.windows.net/", "9aa47fdc-268e-4eae-8c48-d3286b32ba0b", "X3ZRG4Qmg35WGHLC28JUsvhRDWzFVi2DEHrETDXzI/Y=" };
+        private string resource = "/parexelcloud.onmicrosoft.com/oauth2/token";
         private string dataLakeResource = "/webhdfs/v1/?op=LISTSTATUS";
         
         private string access_token;
 
+
         [SetUp]
         public void GetToken()
         {
-            string resource = "/parexelcloud.onmicrosoft.com/oauth2/token";
+           
             var postMethod = Method.POST;
-            string[] parameterNames = new string[] { "grant_type" , "resource" , "client_id" , "client_secret" };
-            string[] parameterValues = new string[] { "client_credentials", "https://management.core.windows.net/", "9aa47fdc-268e-4eae-8c48-d3286b32ba0b", "X3ZRG4Qmg35WGHLC28JUsvhRDWzFVi2DEHrETDXzI/Y=" };
+           
             client = new RestClient(DataSource.MicrosoftLoginUrl);
 
             tokenRequest = new CustomRestRequest().WithResource(resource).WithMethod(postMethod)
