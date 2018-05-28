@@ -51,7 +51,7 @@ namespace Runner
 
             Console.WriteLine(dataLakeResponse.Content);
 
-            Console.WriteLine("hi");
+            Console.WriteLine("hi there");
 
 
 
